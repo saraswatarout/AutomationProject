@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test-script1">
+    <classes>
+      <class name="Sdet31.OrganizationWithIndustryTest"/>
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="Test-script2">
+    <classes>
+    <class name="Sdet31.CreateContactTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
